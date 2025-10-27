@@ -20,7 +20,7 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline executed successfully.'
+            echo 'Pipeline sucessfully build.'
         }
         failure{
             echo 'failed check logs.'
